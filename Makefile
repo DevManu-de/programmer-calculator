@@ -2,7 +2,7 @@
 
 CC = gcc
 CFLAGS := -std=c23 -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls -pedantic-errors
-LFLAGS = -lncurses -ltinfo
+LFLAGS = -lncurses
 # OUTPUT := output
 SRC := src
 BUILDDIR := build
