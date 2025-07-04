@@ -1,7 +1,7 @@
 # https://github.com/danielpinto8zz6/c-cpp-project-generator#readme
 
 CC = gcc
-CFLAGS := -std=c23 -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls -pedantic-errors
+CFLAGS := -std=c11 -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls -D_DEFAULT_SOURCE -pedantic-errors
 LFLAGS = -lncurses
 # OUTPUT := output
 SRC := src
