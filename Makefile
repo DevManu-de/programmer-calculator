@@ -1,8 +1,8 @@
 # https://github.com/danielpinto8zz6/c-cpp-project-generator#readme
 
 CC = gcc
-CFLAGS := -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls
-LFLAGS = -lncurses
+CFLAGS := -std=c23 -Wall -Wextra -g -Werror=missing-declarations -Werror=redundant-decls -pedantic-errors
+LFLAGS = -lncurses -ltinfo
 # OUTPUT := output
 SRC := src
 BUILDDIR := build
